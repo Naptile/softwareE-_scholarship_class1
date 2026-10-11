@@ -1,0 +1,51 @@
+.flex-container{    
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:10px;
+    width: 500px;
+    background-color: #2cb34a;
+    padding-left:0px;
+    padding-bottom:5px
+    
+}
+
+.flex-container .image img{   
+    width: 100%;
+    border-radius: 10px;  
+   
+}
+
+.flex-container .content{
+    color: white;
+    padding:5px
+}
+
+.flex-container .content h1{
+    font-size:20px
+}
+
+.flex-container .content p{
+    font-size:15px
+}
+
+.flex-container .content button{
+    background-color:white;
+    color:#2cb34a;
+    border-radius:10px;
+    padding:10px;
+    border:none;
+    font-wheight:bold;
+}
+
+.flex-container .content h1:hover{
+    color:black
+}
+
+.flex-container .content button:hover{
+    background-color:#2cb34a;
+    color:white;
+    border:1px solid white;
+}
+
+
